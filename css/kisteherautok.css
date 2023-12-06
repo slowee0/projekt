@@ -1,0 +1,97 @@
+.szegely {
+    border: 2px solid violet;
+}
+.logo {
+    width: 130px;
+}
+.kep{
+    width: 100%;
+}
+.nav-link{
+    width: 100%;
+    margin: 20px;
+    color: white;
+}
+.fejlec {
+    background-color: lightblue;
+    width: 100% !important; 
+    height: 20%;
+}
+.menu1{
+    font-size: 20pt;
+    vertical-align: middle; 
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    }
+    .logo {
+        width: 100%;
+    }
+   .menu1 {
+    font-size: 12pt;
+   }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 20px;
+}
+.nav-link:hover {
+    color: black;
+    background-color: white;
+}
+.kinalat {
+    background-color: black;
+    height: 85px;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+.kozepKinalat{
+    text-align: center;
+    font-size: 35pt;
+}
+
+.kisteherek {
+    height: 700px;
+    text-align: center;
+   line-height: 2;
+   border-radius: 10px;
+   
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+#nincsHely {
+    line-height: normal;
+}
+.tovabbi_informacio {
+    background-color: black;
+    width: 160px;
+    height: 40px;
+    color: white;
+    text-align: center !important;
+    border-radius: 0 20px;
+}
+.tablazat {
+    text-align: left;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+#kisteher {
+    margin-top: 20px;
+}
+.hirdetes {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.hirdetesBelso {
+    border: 2.5px solid darkgray;
+}
+li {
+    padding-left: 20px;
+}

@@ -1,0 +1,84 @@
+.szeles {
+    width: 500px;
+}
+
+.szegely {
+    border: 2px solid violet;
+}
+.logo {
+    width: 130px;
+    
+}
+.kep{
+    width: 100%;
+}
+.nav-link{
+    width: 100%;
+    margin: 20px;
+    color: white;
+}
+.fejlec {
+    background-color: lightblue;
+
+    width: 100% !important; 
+    height: 20%;
+}
+.menu1{
+    font-size: 20pt;
+    vertical-align: middle; 
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    }
+    .logo {
+        width: 100%;
+    }
+   .menu1 {
+    font-size: 12pt;
+   }
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-link:hover {
+    color: black;
+    background-color: white;
+}
+.kinalat {
+    background-color: black;
+    height: 85px;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+table {
+    width: 100%;
+}
+tbody, th,td,  tr {
+    border: 1px solid lightgray;
+}
+td {
+    text-align: center;
+}
+th {
+    padding-left: 15px;
+}
+#emailelerhetoseg {
+    list-style-image: url(../img/mail-2564.png);
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+}
+#terkepelerhetoseg {
+    list-style-image: url(../img/pin-48.png);
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+}
+#telefonelerhetoseg {
+    list-style-image: url(../img/phone-504.png);
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
